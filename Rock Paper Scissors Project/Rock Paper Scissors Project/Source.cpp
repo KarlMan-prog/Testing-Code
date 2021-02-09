@@ -26,12 +26,23 @@ int main() {
 		exit(1);
 	}
 
+	cout << "Now writing our Haiku to our File" << endl;
+
+
+	namescoreFile << "What are we going to do Karl?\n";
+	namescoreFile << "These are the building blocks for our Rock-Paper-Scissors application\n";
+	namescoreFile << "God speed";
+
+	namescoreFile.close();
+
+
+	cout << "Done writing to file";
 	int x, y;
 
-	namescoreFile >> x >> y;
+	// namescoreFile >> x >> y;
 
-	cout << "Num 1: " << x << endl;
-	cout << "Num 2: " << y << endl;
+	//cout << "Num 1: " << x << endl;
+	//cout << "Num 2: " << y << endl;
 
 
 
